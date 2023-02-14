@@ -39,10 +39,10 @@ Variables
     --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 /*
-=============== 
-Global Styles
-===============
-*/
+  =============== 
+  Global Styles
+  ===============
+  */
 
 * {
     margin: 0;
@@ -166,10 +166,10 @@ p {
 }
 
 /*
-=============== 
-Hero
-===============
-*/
+  =============== 
+  Hero
+  ===============
+  */
 
 .hero {
     min-height: 100vh;
@@ -205,9 +205,9 @@ Hero
     border-color: var(--clr-white);
 }
 @media screen and (min-width: 768px) {
-    .hero {
-        background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)), url("./images/main.jpeg") center/cover no-repeat;
-    }
+    /* .hero {
+        background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)), url("../images/main.jpeg") center/cover no-repeat;
+    } */
     .hero-banner {
         padding: 0;
     }
@@ -216,10 +216,10 @@ Hero
     }
 }
 /*
-=============== 
-About
-===============
-*/
+  =============== 
+  About
+  ===============
+  */
 /* section added to globals */
 /* title added to globals */
 /* section center added to globals */
@@ -259,10 +259,10 @@ About
     }
 }
 /*
-=============== 
-Services
-===============
-*/
+  =============== 
+  Services
+  ===============
+  */
 .services {
     background: var(--clr-grey-10);
 }
@@ -316,10 +316,10 @@ Services
 }
 
 /*
-=============== 
-Featured Tours
-===============
-*/
+  =============== 
+  Featured Tours
+  ===============
+  */
 
 .tour-card {
     transition: var(--transition);
@@ -398,10 +398,10 @@ Featured Tours
 }
 
 /*
-=============== 
-Footer
-===============
-*/
+  =============== 
+  Footer
+  ===============
+  */
 .footer {
     background: var(--clr-grey-1);
     text-align: center;
@@ -444,10 +444,10 @@ Footer
     margin-left: 0.5rem;
 }
 /*
-=============== 
-Navbar
-===============
-*/
+  =============== 
+  Navbar
+  ===============
+  */
 /* add :not(.nav-logo) to img */
 
 .navbar {
@@ -489,7 +489,7 @@ Navbar
 }
 .nav-link {
     display: block;
-    margin: 1rem 2rem;
+    padding: 1rem 2rem;
     text-transform: capitalize;
     letter-spacing: var(--spacing);
     transition: var(--transition);
